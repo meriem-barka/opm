@@ -1,0 +1,22 @@
+<nav class="light-blue">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="index.php?page=home" class="brand-logo">IglooFood</a>
+
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <ul class="right hide-on-med-and-down">
+            <li class="<?php echo ($page=="home")?"active" : ""; ?>"><a href="index.php?page=home">Accueil</a></li>
+                <li class="<?php echo ($page=="news")?"active" : ""; ?>"><a href="index.php?page=news">Les Nouvelles</a></li>
+                <li class="<?php echo ($page=="blog")?"active" : ""; ?>"><a href="index.php?page=blog">Blog</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-menu">
+            <li class="<?php echo ($page=="home")?"active" : ""; ?>"><a href="index.php?page=home">Accueil1</a></li>
+                <li class="<?php echo ($page=="news")?"active" : ""; ?>"><a href="index.php?page=news">Accueil</a></li>
+                <li class="<?php echo ($page=="blog")?"active" : ""; ?>"><a href="index.php?page=blog">Blog</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
